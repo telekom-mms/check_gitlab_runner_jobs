@@ -3,8 +3,7 @@
 This script is an icinga2 monitoring check to check how many jobs are in a given state per runner
 
 ```
-usage: check_gitlab_runner_jobs.py [-h] -u URL [-s JOBSTATE] -t TOKEN -r
-                                   RUNNER
+usage: check_gitlab_runner_jobs.py [-h] -u URL [-s JOBSTATE] -t TOKEN -r RUNNER
 
 optional arguments:
   -h, --help            show this help message and exit
